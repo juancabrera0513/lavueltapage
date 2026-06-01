@@ -1,0 +1,155 @@
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 110px 0 72px;
+}
+
+.hero-bg {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(2px);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.hero-bg-one {
+  width: 260px;
+  height: 260px;
+  left: -90px;
+  top: 110px;
+  background: rgba(74, 222, 128, 0.18);
+}
+
+.hero-bg-two {
+  width: 360px;
+  height: 360px;
+  right: -120px;
+  top: 60px;
+  background: rgba(244, 114, 182, 0.16);
+}
+
+.hero-grid,
+.featured-grid,
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.hero-copy {
+  max-width: 720px;
+}
+
+.hero-text {
+  max-width: 650px;
+  color: #d7def1;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.65;
+}
+
+.hero-panel {
+  position: relative;
+  min-height: 440px;
+  display: grid;
+  place-items: center;
+}
+
+.orbit-card,
+.mini-card,
+.feature-card,
+.featured-card,
+.about-card {
+  border: 1px solid var(--border);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.05));
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.orbit-card-main {
+  width: min(100%, 360px);
+  min-height: 360px;
+  border-radius: 42px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(74, 222, 128, 0.25), transparent 30%),
+    radial-gradient(circle at 80% 30%, rgba(56, 189, 248, 0.25), transparent 32%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.05));
+}
+
+.orbit-card-main span {
+  width: max-content;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: #06110b;
+  background: var(--green);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+.orbit-card-main strong {
+  margin-top: 18px;
+  font-size: 3rem;
+  line-height: 0.95;
+  letter-spacing: -0.07em;
+}
+
+.orbit-card-main small {
+  margin-top: 12px;
+  color: var(--muted);
+}
+
+.mini-card {
+  position: absolute;
+  padding: 18px 22px;
+  border-radius: 22px;
+  font-weight: 900;
+}
+
+.mini-card-top {
+  top: 28px;
+  right: 10px;
+}
+
+.mini-card-bottom {
+  left: 10px;
+  bottom: 36px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.feature-card {
+  min-height: 260px;
+  border-radius: var(--radius);
+  padding: 26px;
+}
+
+.card-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 22px;
+  border-radius: 16px;
+  color: #06110b;
+  background: linear-gradient(135deg, var(--orange), var(--green));
+  font-weight: 900;
+}
+
+.featured-card,
+.about-card {
+  border-radius: var(--radius);
+  padding: clamp(26px, 4vw, 46px);
+}
+
+.featured-card h2 {
+  font-size: clamp(3rem, 7vw, 6rem);
+}

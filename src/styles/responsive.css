@@ -1,0 +1,119 @@
+@media (max-width: 980px) {
+  .site-header {
+    align-items: stretch;
+    border-radius: 28px;
+    flex-wrap: wrap;
+  }
+
+  .desktop-nav {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+
+  .hero-grid,
+  .product-grid,
+  .featured-grid,
+  .two-column,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-section,
+  .product-hero {
+    padding-top: 70px;
+  }
+
+  .hero-panel {
+    min-height: 360px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .phone-mockup {
+    justify-self: start;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: min(100% - 24px, var(--container));
+  }
+
+  .site-header {
+    margin-top: 10px;
+  }
+
+  .brand-text strong {
+    font-size: 0.9rem;
+  }
+
+  .brand-text small {
+    display: none;
+  }
+
+  .language-btn {
+    padding: 10px 12px;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 17vw, 4.6rem);
+  }
+
+  .hero-section,
+  .product-hero,
+  .section,
+  .legal-section,
+  .simple-page {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .button-row {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero-panel {
+    min-height: 300px;
+  }
+
+  .orbit-card-main {
+    min-height: 290px;
+  }
+
+  .orbit-card-main strong {
+    font-size: 2.4rem;
+  }
+
+  .mini-card {
+    display: none;
+  }
+
+  .phone-mockup {
+    min-height: auto;
+  }
+
+  .game-screen {
+    min-height: 480px;
+  }
+
+  .info-row {
+    flex-direction: column;
+  }
+
+  .info-row strong,
+  .info-row a {
+    text-align: left;
+  }
+}

@@ -1,0 +1,92 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  width: min(100% - 24px, 1240px);
+  margin: 16px auto 0;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: space-between;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(7, 8, 22, 0.78);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.28);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-width: max-content;
+}
+
+.brand-mark {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  color: #06110b;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  background:
+    linear-gradient(135deg, var(--green), var(--blue) 48%, var(--purple));
+  box-shadow: 0 12px 36px rgba(74, 222, 128, 0.25);
+}
+
+.brand-text {
+  display: grid;
+  line-height: 1.1;
+}
+
+.brand-text strong {
+  font-size: 0.98rem;
+}
+
+.brand-text small {
+  color: var(--muted-2);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.desktop-nav a {
+  padding: 10px 12px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  transition: 180ms ease;
+}
+
+.desktop-nav a:hover,
+.desktop-nav a.active {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.language-btn {
+  border: 1px solid var(--border);
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 11px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 180ms ease;
+}
+
+.language-btn:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.1);
+}
