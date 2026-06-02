@@ -12,12 +12,16 @@ export default function Header({ lang, setLang, t }) {
 
   return (
     <header className="site-header">
-      <Link to="/" className="brand" aria-label="La Vuelta Labs home">
-        <span className="brand-mark">LV</span>
-        <span className="brand-text">
-          <strong>La Vuelta Labs</strong>
-          <small>{t.common.official}</small>
-        </span>
+      <Link
+        to="/"
+        className="brand brand-with-logo"
+        aria-label="La Vuelta Labs home"
+      >
+        <img
+          src="/assets/la-vuelta-logo.png"
+          alt="La Vuelta Labs"
+          className="brand-logo"
+        />
       </Link>
 
       <nav className="desktop-nav" aria-label="Main navigation">

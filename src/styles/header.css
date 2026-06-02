@@ -2,16 +2,16 @@
   position: sticky;
   top: 0;
   z-index: 20;
-  width: min(100% - 24px, 1240px);
+  width: min(100% - 24px, 1120px);
   margin: 16px auto 0;
-  padding: 12px;
+  padding: 10px 14px;
   display: flex;
   align-items: center;
   gap: 18px;
   justify-content: space-between;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: rgba(7, 8, 22, 0.78);
+  background: rgba(7, 8, 22, 0.82);
   backdrop-filter: blur(18px);
   box-shadow: 0 16px 60px rgba(0, 0, 0, 0.28);
 }
@@ -19,38 +19,22 @@
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  min-width: max-content;
+  min-width: 0;
 }
 
-.brand-mark {
-  width: 44px;
+.brand-with-logo {
+  width: 170px;
   height: 44px;
-  display: grid;
-  place-items: center;
-  border-radius: 16px;
-  color: #06110b;
-  font-weight: 900;
-  letter-spacing: -0.04em;
-  background:
-    linear-gradient(135deg, var(--green), var(--blue) 48%, var(--purple));
-  box-shadow: 0 12px 36px rgba(74, 222, 128, 0.25);
+  overflow: hidden;
+  border-radius: 14px;
 }
 
-.brand-text {
-  display: grid;
-  line-height: 1.1;
-}
-
-.brand-text strong {
-  font-size: 0.98rem;
-}
-
-.brand-text small {
-  color: var(--muted-2);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
+.brand-logo {
+  display: block;
+  width: 170px;
+  height: 44px;
+  object-fit: contain;
+  object-position: center;
 }
 
 .desktop-nav {
@@ -68,6 +52,7 @@
   color: var(--muted);
   font-size: 0.92rem;
   transition: 180ms ease;
+  white-space: nowrap;
 }
 
 .desktop-nav a:hover,
@@ -84,6 +69,7 @@
   border-radius: 999px;
   cursor: pointer;
   transition: 180ms ease;
+  white-space: nowrap;
 }
 
 .language-btn:hover {
