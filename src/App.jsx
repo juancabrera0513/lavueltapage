@@ -6,8 +6,10 @@ import { copy } from "./data/copy";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+import BibleGamePage from "./pages/BibleGamePage";
 import Home from "./pages/Home";
 import StopPage from "./pages/StopPage";
+import PrivacyBibleGame from "./pages/PrivacyBibleGame";
 import PrivacyStop from "./pages/PrivacyStop";
 import TermsStop from "./pages/TermsStop";
 import SupportStop from "./pages/SupportStop";
@@ -30,6 +32,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home t={t} />} />
           <Route path="/stop" element={<StopPage t={t} />} />
+          <Route path="/quien-soy-biblia" element={<BibleGamePage t={t} />} />
+          <Route path="/privacy/quien-soy-biblia" element={<PrivacyBibleGame t={t} />} />
+          <Route path="/privacy/bible-game" element={<PrivacyBibleGame t={t} />} />
+          <Route path="/privacidad/juego-biblia" element={<PrivacyBibleGame t={t} />} />
           <Route path="/privacy/stop" element={<PrivacyStop t={t} />} />
           <Route path="/terms/stop" element={<TermsStop t={t} />} />
           <Route path="/support/stop" element={<SupportStop t={t} />} />

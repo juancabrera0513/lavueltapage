@@ -1,11 +1,13 @@
 export const CONTACT_EMAIL = "support@lavueltalabs.com";
 export const LAST_UPDATED = "June 1, 2026";
+export const BIBLE_PRIVACY_LAST_UPDATED = "June 4, 2026";
 
 export const copy = {
   en: {
     nav: {
       home: "Home",
       stop: "STOP",
+      bible: "¿Quién Soy? Biblia",
       privacy: "Privacy",
       terms: "Terms",
       support: "Support",
@@ -70,6 +72,34 @@ export const copy = {
       statusText:
         "STOP is in final preparation for publication on Google Play. The first release focuses on a clean single-player experience, with more features planned for future updates."
     },
+    bibleGame: {
+      eyebrow: "Official Game Page",
+      title: "¿Quién Soy? Biblia",
+      subtitle:
+        "A Bible character guessing game where each clue challenges your memory, faith knowledge, and deduction skills.",
+      primary: "Google Play Release in Progress",
+      secondary: "Read Privacy Policy",
+      howTitle: "How It Works",
+      how: [
+        "Read each clue carefully.",
+        "Guess the Bible character.",
+        "Use what you know from Bible stories.",
+        "Keep advancing through new challenges."
+      ],
+      featuresTitle: "Game Features",
+      features: [
+        "Bible character guessing gameplay",
+        "Educational trivia-style clues",
+        "Single-player progression",
+        "Local progress and settings",
+        "Designed for quick, meaningful rounds",
+        "Future updates may add more levels and features"
+      ],
+      statusTitle: "About the Game",
+      statusText:
+        "¿Quién Soy? Biblia is a mobile guessing game focused on characters from the Bible. The first release is designed to be simple, accessible, and fun for players who enjoy Bible knowledge challenges.",
+      featuresHeading: "Built for clues, discovery, and Bible knowledge."
+    },
     privacy: {
       title: "Privacy Policy for STOP",
       intro:
@@ -118,6 +148,64 @@ export const copy = {
         },
         {
           title: "9. Contact",
+          text:
+            "If you have questions about this Privacy Policy, you can contact us at support@lavueltalabs.com."
+        }
+      ]
+    },
+    biblePrivacy: {
+      title: "Privacy Policy for ¿Quién Soy? Biblia",
+      intro:
+        "This Privacy Policy explains how La Vuelta Labs handles information related to ¿Quién Soy? Biblia.",
+      appInfo: "App name: ¿Quién Soy? Biblia. Developer: La Vuelta Labs.",
+      sections: [
+        {
+          title: "1. Information We Collect",
+          text:
+            "¿Quién Soy? Biblia does not require users to create an account and does not directly collect personal information such as name, email address, phone number, or address."
+        },
+        {
+          title: "2. Local Game Data",
+          text:
+            "¿Quién Soy? Biblia may store gameplay data locally on your device. This may include progress, scores, unlocked content, settings, preferences, and similar information needed for the game to work properly."
+        },
+        {
+          title: "3. Bible Character Gameplay",
+          text:
+            "The app presents clues and answers related to Bible characters. This gameplay activity is used to provide the guessing game experience and, when stored, is kept as local app data unless a future version adds online features."
+        },
+        {
+          title: "4. In-App Purchases",
+          text:
+            "¿Quién Soy? Biblia does not currently include in-app purchases. If purchases are added in a future version, they will be processed through the official app store platform, such as Google Play, and this policy will be updated as needed."
+        },
+        {
+          title: "5. Third-Party Services",
+          text:
+            "¿Quién Soy? Biblia does not currently use third-party analytics, advertising, account login, or backend services. Future versions may include services for features like crash reporting, analytics, sign-in, online features, ads, or cloud saving. If those services are added, this Privacy Policy will be updated before or when those features are released."
+        },
+        {
+          title: "6. Sharing of Information",
+          text:
+            "We do not sell personal information. Since ¿Quién Soy? Biblia does not currently require an account or directly collect personal information, we do not share personal account information with advertisers or data brokers."
+        },
+        {
+          title: "7. Children's Privacy",
+          text:
+            "¿Quién Soy? Biblia is designed as a general educational and entertainment game. We do not knowingly collect personal information from children. If you believe that a child has provided personal information to us, please contact us so we can review and address the issue."
+        },
+        {
+          title: "8. Data Security",
+          text:
+            "We take reasonable steps to protect the app and any information handled by it. However, no digital system can be guaranteed to be completely secure."
+        },
+        {
+          title: "9. Changes to This Policy",
+          text:
+            "We may update this Privacy Policy from time to time, especially when new features are added to ¿Quién Soy? Biblia. Updates will be posted on this page with a new last updated date."
+        },
+        {
+          title: "10. Contact",
           text:
             "If you have questions about this Privacy Policy, you can contact us at support@lavueltalabs.com."
         }
@@ -191,7 +279,8 @@ export const copy = {
     },
     footer: {
       text: "Independent apps and games studio.",
-      rights: "All rights reserved."
+      rights: "All rights reserved.",
+      biblePrivacy: "¿Quién Soy? Biblia Privacy"
     },
     common: {
       lastUpdated: "Last updated",
@@ -205,6 +294,7 @@ export const copy = {
     nav: {
       home: "Inicio",
       stop: "STOP",
+      bible: "¿Quién Soy? Biblia",
       privacy: "Privacidad",
       terms: "Términos",
       support: "Soporte",
@@ -269,6 +359,35 @@ export const copy = {
       statusText:
         "STOP está en preparación final para publicarse en Google Play. La primera versión se enfoca en una experiencia limpia de un jugador, con más funciones planeadas para futuras actualizaciones."
     },
+    bibleGame: {
+      eyebrow: "Página Oficial del Juego",
+      title: "¿Quién Soy? Biblia",
+      subtitle:
+        "Un juego para adivinar personajes de la Biblia donde cada pista reta tu memoria, conocimiento bíblico y capacidad de deducción.",
+      primary: "Lanzamiento en Google Play en Proceso",
+      secondary: "Leer Política de Privacidad",
+      howTitle: "Cómo Funciona",
+      how: [
+        "Lee cada pista con atención.",
+        "Adivina el personaje bíblico.",
+        "Usa lo que sabes de las historias de la Biblia.",
+        "Avanza por nuevos retos."
+      ],
+      featuresTitle: "Funciones del Juego",
+      features: [
+        "Juego de adivinar personajes bíblicos",
+        "Pistas educativas tipo trivia",
+        "Progreso de un jugador",
+        "Progreso y ajustes guardados localmente",
+        "Diseñado para rondas rápidas y significativas",
+        "Futuras actualizaciones podrían agregar más niveles y funciones"
+      ],
+      statusTitle: "Sobre el Juego",
+      statusText:
+        "¿Quién Soy? Biblia es un juego móvil de adivinanzas enfocado en personajes de la Biblia. La primera versión está pensada para ser simple, accesible y divertida para jugadores que disfrutan los retos de conocimiento bíblico.",
+      featuresHeading:
+        "Creado para pistas, descubrimiento y conocimiento bíblico."
+    },
     privacy: {
       title: "Política de Privacidad de STOP",
       intro:
@@ -317,6 +436,65 @@ export const copy = {
         },
         {
           title: "9. Contacto",
+          text:
+            "Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en support@lavueltalabs.com."
+        }
+      ]
+    },
+    biblePrivacy: {
+      title: "Política de Privacidad de ¿Quién Soy? Biblia",
+      intro:
+        "Esta Política de Privacidad explica cómo La Vuelta Labs maneja la información relacionada con ¿Quién Soy? Biblia.",
+      appInfo:
+        "Nombre de la app: ¿Quién Soy? Biblia. Desarrollador: La Vuelta Labs.",
+      sections: [
+        {
+          title: "1. Información que Recopilamos",
+          text:
+            "¿Quién Soy? Biblia no requiere que los usuarios creen una cuenta y no recopila directamente información personal como nombre, correo electrónico, número de teléfono o dirección."
+        },
+        {
+          title: "2. Datos Locales del Juego",
+          text:
+            "¿Quién Soy? Biblia puede guardar datos del juego localmente en tu dispositivo. Esto puede incluir progreso, puntuaciones, contenido desbloqueado, configuraciones, preferencias e información similar necesaria para que el juego funcione correctamente."
+        },
+        {
+          title: "3. Jugabilidad de Personajes Bíblicos",
+          text:
+            "La app presenta pistas y respuestas relacionadas con personajes de la Biblia. Esta actividad de juego se usa para ofrecer la experiencia de adivinanza y, cuando se guarda, se mantiene como dato local de la app a menos que una versión futura agregue funciones en línea."
+        },
+        {
+          title: "4. Compras Dentro de la App",
+          text:
+            "¿Quién Soy? Biblia actualmente no incluye compras dentro de la app. Si se agregan compras en una versión futura, serán procesadas a través de la plataforma oficial de la tienda de aplicaciones, como Google Play, y esta política se actualizará según sea necesario."
+        },
+        {
+          title: "5. Servicios de Terceros",
+          text:
+            "¿Quién Soy? Biblia actualmente no usa analítica de terceros, publicidad, inicio de sesión ni servicios backend. Versiones futuras podrían incluir servicios para funciones como reportes de errores, analítica, inicio de sesión, funciones online, anuncios o guardado en la nube. Si esos servicios se agregan, esta Política de Privacidad será actualizada antes o al momento de publicar esas funciones."
+        },
+        {
+          title: "6. Compartir Información",
+          text:
+            "No vendemos información personal. Como ¿Quién Soy? Biblia actualmente no requiere una cuenta ni recopila directamente información personal, no compartimos información personal de cuentas con anunciantes o intermediarios de datos."
+        },
+        {
+          title: "7. Privacidad de Menores",
+          text:
+            "¿Quién Soy? Biblia está diseñado como un juego educativo y de entretenimiento general. No recopilamos intencionalmente información personal de menores. Si crees que un menor nos proporcionó información personal, contáctanos para revisar y atender la situación."
+        },
+        {
+          title: "8. Seguridad de Datos",
+          text:
+            "Tomamos medidas razonables para proteger la app y cualquier información manejada por ella. Sin embargo, ningún sistema digital puede garantizar seguridad completa."
+        },
+        {
+          title: "9. Cambios a Esta Política",
+          text:
+            "Podemos actualizar esta Política de Privacidad ocasionalmente, especialmente cuando se agreguen nuevas funciones a ¿Quién Soy? Biblia. Las actualizaciones se publicarán en esta página con una nueva fecha de última actualización."
+        },
+        {
+          title: "10. Contacto",
           text:
             "Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en support@lavueltalabs.com."
         }
@@ -390,7 +568,8 @@ export const copy = {
     },
     footer: {
       text: "Estudio independiente de apps y juegos.",
-      rights: "Todos los derechos reservados."
+      rights: "Todos los derechos reservados.",
+      biblePrivacy: "Privacidad de ¿Quién Soy? Biblia"
     },
     common: {
       lastUpdated: "Última actualización",

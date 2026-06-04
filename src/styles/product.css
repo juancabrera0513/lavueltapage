@@ -73,6 +73,57 @@
   font-weight: 900;
 }
 
+.bible-hero h1 {
+  max-width: 760px;
+  font-size: clamp(3.2rem, 8vw, 6.8rem);
+}
+
+.bible-phone {
+  border-color: rgba(250, 204, 21, 0.32);
+}
+
+.bible-screen {
+  background:
+    radial-gradient(circle at top right, rgba(250, 204, 21, 0.28), transparent 34%),
+    radial-gradient(circle at bottom left, rgba(56, 189, 248, 0.22), transparent 34%),
+    linear-gradient(180deg, #182033, #0b1020);
+}
+
+.bible-badge {
+  color: #181106;
+  background: #facc15;
+}
+
+.clue-label {
+  margin: 32px 0 8px;
+  color: #facc15;
+  font-size: 0.85rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.bible-screen h2 {
+  margin: 0 0 28px;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  line-height: 1.02;
+}
+
+.bible-answer {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bible-answer.is-correct {
+  color: #07110b;
+  background: var(--green);
+  font-weight: 900;
+}
+
+.bible-timer {
+  color: #07110b;
+  background: var(--blue);
+}
+
 .step-list {
   display: grid;
   gap: 14px;

@@ -14,7 +14,9 @@ export default function Footer({ t }) {
 
         <div className="footer-links">
           <Link to="/stop">STOP</Link>
+          <Link to="/quien-soy-biblia">¿Quién Soy? Biblia</Link>
           <Link to="/privacy/stop">Privacy</Link>
+          <Link to="/privacy/quien-soy-biblia">{t.footer.biblePrivacy}</Link>
           <Link to="/terms/stop">Terms</Link>
           <Link to="/support/stop">Support</Link>
           <Link to="/contact">Contact</Link>
