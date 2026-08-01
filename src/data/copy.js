@@ -1,4 +1,4 @@
-export const CONTACT_EMAIL = "support@lavueltalabs.com";
+export const CONTACT_EMAIL = "admin@domiwebsites.com";
 export const LAST_UPDATED = "June 1, 2026";
 export const BIBLE_PRIVACY_LAST_UPDATED = "June 4, 2026";
 
@@ -149,7 +149,7 @@ export const copy = {
         {
           title: "9. Contact",
           text:
-            "If you have questions about this Privacy Policy, you can contact us at support@lavueltalabs.com."
+            "If you have questions about this Privacy Policy, you can contact us at admin@domiwebsites.com."
         }
       ]
     },
@@ -179,11 +179,11 @@ export const copy = {
           text:
             "¿Quién Soy? Biblia does not currently include in-app purchases. If purchases are added in a future version, they will be processed through the official app store platform, such as Google Play, and this policy will be updated as needed."
         },
-        {
-          title: "5. Third-Party Services",
-          text:
-            "¿Quién Soy? Biblia does not currently use third-party analytics, advertising, account login, or backend services. Future versions may include services for features like crash reporting, analytics, sign-in, online features, ads, or cloud saving. If those services are added, this Privacy Policy will be updated before or when those features are released."
-        },
+       {
+  title: "5. Third-Party Services",
+  text:
+    "¿Quién Soy? Biblia uses Google AdMob to show an optional rewarded video ad, which players can watch to receive an extra clue without losing points. Ads are never required to play the game. AdMob may collect device and advertising identifiers to serve and measure ads; we request non-personalized ads by default. For users in the European Economic Area and the United Kingdom, the app uses Google's User Messaging Platform (UMP) to request consent before loading ads, where required by applicable law. Future versions may include additional third-party services such as crash reporting or analytics; this Privacy Policy will be updated before or when those features are released."
+},
         {
           title: "6. Sharing of Information",
           text:
@@ -207,7 +207,7 @@ export const copy = {
         {
           title: "10. Contact",
           text:
-            "If you have questions about this Privacy Policy, you can contact us at support@lavueltalabs.com."
+            "If you have questions about this Privacy Policy, you can contact us at admin@domiwebsites.com."
         }
       ]
     },
@@ -259,7 +259,7 @@ export const copy = {
         {
           title: "9. Contact",
           text:
-            "If you have questions about these Terms, you can contact us at support@lavueltalabs.com."
+            "If you have questions about these Terms, you can contact us at admin@domiwebsites.com."
         }
       ]
     },
@@ -437,7 +437,7 @@ export const copy = {
         {
           title: "9. Contacto",
           text:
-            "Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en support@lavueltalabs.com."
+            "Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en admin@domiwebsites.com."
         }
       ]
     },
@@ -496,7 +496,7 @@ export const copy = {
         {
           title: "10. Contacto",
           text:
-            "Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en support@lavueltalabs.com."
+            "Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en admin@domiwebsites.com."
         }
       ]
     },
@@ -548,7 +548,7 @@ export const copy = {
         {
           title: "9. Contacto",
           text:
-            "Si tienes preguntas sobre estos Términos, puedes contactarnos en support@lavueltalabs.com."
+            "Si tienes preguntas sobre estos Términos, puedes contactarnos en admin@domiwebsites.com."
         }
       ]
     },
