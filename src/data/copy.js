@@ -199,10 +199,15 @@ export const copy = {
           text:
             "We take reasonable steps to protect the app and any information handled by it. However, no digital system can be guaranteed to be completely secure."
         },
-        {
+              {
           title: "9. Changes to This Policy",
           text:
             "We may update this Privacy Policy from time to time, especially when new features are added to ¿Quién Soy? Biblia. Updates will be posted on this page with a new last updated date."
+        },
+        {
+          title: "9a. How to Delete Your Data",
+          text:
+            "¿Quién Soy? Biblia stores all game progress locally on your device. To delete it, open the app, go to the \"Logros y récords\" tab from the main menu, and tap \"Reiniciar récords.\" This permanently erases your saved score, accuracy, achievements, and category records from your device. Uninstalling the app also removes all locally stored data."
         },
         {
           title: "10. Contact",
@@ -468,11 +473,11 @@ export const copy = {
           text:
             "¿Quién Soy? Biblia actualmente no incluye compras dentro de la app. Si se agregan compras en una versión futura, serán procesadas a través de la plataforma oficial de la tienda de aplicaciones, como Google Play, y esta política se actualizará según sea necesario."
         },
-        {
-          title: "5. Servicios de Terceros",
-          text:
-            "¿Quién Soy? Biblia actualmente no usa analítica de terceros, publicidad, inicio de sesión ni servicios backend. Versiones futuras podrían incluir servicios para funciones como reportes de errores, analítica, inicio de sesión, funciones online, anuncios o guardado en la nube. Si esos servicios se agregan, esta Política de Privacidad será actualizada antes o al momento de publicar esas funciones."
-        },
+       {
+  title: "5. Servicios de Terceros",
+  text:
+    "¿Quién Soy? Biblia utiliza Google AdMob para mostrar un anuncio de video recompensado opcional, que los jugadores pueden ver para recibir una pista adicional sin perder puntos. Los anuncios nunca son obligatorios para jugar. AdMob puede recopilar identificadores del dispositivo y de publicidad para mostrar y medir anuncios; solicitamos anuncios no personalizados de forma predeterminada. Para los usuarios del Espacio Económico Europeo (EEE) y del Reino Unido, la aplicación utiliza la User Messaging Platform (UMP) de Google para solicitar el consentimiento antes de cargar anuncios, cuando así lo exija la legislación aplicable. Versiones futuras podrían incluir servicios adicionales de terceros, como reportes de errores o analítica. Esta Política de Privacidad será actualizada antes o en el momento en que dichas funciones sean incorporadas."
+},
         {
           title: "6. Compartir Información",
           text:
@@ -488,7 +493,7 @@ export const copy = {
           text:
             "Tomamos medidas razonables para proteger la app y cualquier información manejada por ella. Sin embargo, ningún sistema digital puede garantizar seguridad completa."
         },
-        {
+               {
           title: "9. Cambios a Esta Política",
           text:
             "Podemos actualizar esta Política de Privacidad ocasionalmente, especialmente cuando se agreguen nuevas funciones a ¿Quién Soy? Biblia. Las actualizaciones se publicarán en esta página con una nueva fecha de última actualización."
