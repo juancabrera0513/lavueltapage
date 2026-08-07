@@ -1,6 +1,7 @@
 export const CONTACT_EMAIL = "admin@domiwebsites.com";
 export const LAST_UPDATED = "June 1, 2026";
 export const BIBLE_PRIVACY_LAST_UPDATED = "June 4, 2026";
+export const STOP_PRIVACY_LAST_UPDATED = "August 6, 2026";
 
 export const STOP_PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.domiwebsites.stopgame";
@@ -107,59 +108,64 @@ export const copy = {
       featuresHeading: "Built for clues, discovery, and Bible knowledge.",
       galleryTitle: "See it in action"
     },
-    privacy: {
-      title: "Privacy Policy for STOP",
-      intro:
-        "This Privacy Policy explains how La Vuelta Labs handles information related to STOP.",
-      appInfo: "App name: STOP. Developer: La Vuelta Labs.",
-      sections: [
-        {
-          title: "1. Information We Collect",
-          text:
-            "At this time, STOP does not require users to create an account and does not directly collect personal information such as name, email address, phone number, or address."
-        },
-        {
-          title: "2. Local Game Data",
-          text:
-            "STOP may store game data locally on your device. This may include coins, scores, selected settings, game progress, and similar gameplay information. This data is used to make the game work properly on your device."
-        },
-        {
-          title: "3. In-App Purchases",
-          text:
-            "STOP does not currently include in-app purchases. In-app purchases may be added in a future version. If they are added, purchases would be processed through the official app store platform, such as Google Play, and this policy will be updated as needed."
-        },
-        {
-          title: "4. Third-Party Services",
-          text:
-            "STOP does not currently use third-party analytics, advertising, account login, or backend services such as Supabase. Future versions may include services for features like crash reporting, analytics, sign-in, online features, ads, or cloud saving. If those services are added, this Privacy Policy will be updated before or when those features are released."
-        },
-        {
-          title: "5. Sharing of Information",
-          text:
-            "We do not sell personal information. Since STOP does not currently require an account or directly collect personal information, we do not share personal account information with advertisers or data brokers."
-        },
-        {
-          title: "6. Children's Privacy",
-          text:
-            "STOP is designed as a general word game. We do not knowingly collect personal information from children. If you believe that a child has provided personal information to us, please contact us so we can review and address the issue."
-        },
-        {
-          title: "7. Data Security",
-          text:
-            "We take reasonable steps to protect the app and any information handled by it. However, no digital system can be guaranteed to be completely secure."
-        },
-        {
-          title: "8. Changes to This Policy",
-          text:
-            "We may update this Privacy Policy from time to time, especially when new features are added to STOP. Updates will be posted on this page with a new last updated date."
-        },
-        {
-          title: "9. Contact",
-          text:
-            "If you have questions about this Privacy Policy, you can contact us at admin@domiwebsites.com."
-        }
-      ]
+   privacy: {
+  title: "Privacy Policy for STOP",
+  intro:
+    "This Privacy Policy explains how La Vuelta Labs handles information related to STOP.",
+  appInfo: "App name: STOP. Developer: La Vuelta Labs.",
+  sections: [
+    {
+      title: "1. Information We Collect",
+      text:
+        "At this time, STOP does not require users to create an account and does not directly collect personal information such as name, email address, phone number, or address."
     },
+    {
+      title: "2. Local Game Data",
+      text:
+        "STOP may store game data locally on your device. This may include coins, scores, selected settings, game progress, and similar gameplay information. This data is used to make the game work properly on your device."
+    },
+    {
+      title: "3. In-App Purchases",
+      text:
+        "STOP includes in-app purchases for optional coin packs, which players can use to unlock category packs and other in-app content. Purchases are processed entirely through Google Play's official billing system; STOP does not process payment information directly and does not store your payment details."
+    },
+    {
+      title: "4. Third-Party Services",
+      text:
+        "STOP uses Google AdMob to show an optional rewarded video ad, which players can watch to receive extra coins. Ads are never required to play the game. AdMob may collect device and advertising identifiers to serve and measure ads; we request non-personalized ads by default. For users in the European Economic Area and the United Kingdom, the app uses Google's User Messaging Platform (UMP) to request consent before loading ads, where required by applicable law. STOP also uses Supabase, a backend database service, to store a small amount of anonymous gameplay data: specifically, words a player typed that were not recognized as valid for a category, together with the category and letter of that round. This data is not linked to your name, account, or device identity, and is used only to improve the game's word lists. It is not shared with advertisers or other third parties. Future versions may include additional third-party services such as crash reporting or analytics; this Privacy Policy will be updated before or when those features are released."
+    },
+    {
+      title: "5. Sharing of Information",
+      text:
+        "We do not sell personal information. Since STOP does not currently require an account or directly collect personal information, we do not share personal account information with advertisers or data brokers."
+    },
+    {
+      title: "6. Children's Privacy",
+      text:
+        "STOP is designed as a general word game. We do not knowingly collect personal information from children. If you believe that a child has provided personal information to us, please contact us so we can review and address the issue."
+    },
+    {
+      title: "7. Data Security",
+      text:
+        "We take reasonable steps to protect the app and any information handled by it. However, no digital system can be guaranteed to be completely secure."
+    },
+    {
+      title: "8. Changes to This Policy",
+      text:
+        "We may update this Privacy Policy from time to time, especially when new features are added to STOP. Updates will be posted on this page with a new last updated date."
+    },
+    {
+      title: "8a. How to Delete Your Data",
+      text:
+        "Most of STOP's data — coins, progress, and settings — is stored locally on your device. You can remove it at any time by clearing the app's storage in your device settings, or by uninstalling the app. The anonymous gameplay data described in Section 4 (words that were not recognized as valid) is not linked to your identity, device, or account in any way, so it cannot be traced back to a specific player or deleted individually on request. We retain this anonymous data only for as long as needed to improve STOP's word lists. If you have questions about this data or would like to raise a concern, contact us at admin@domiwebsites.com."
+    },
+    {
+      title: "9. Contact",
+      text:
+        "If you have questions about this Privacy Policy, you can contact us at admin@domiwebsites.com."
+    }
+  ]
+},
     biblePrivacy: {
       title: "Privacy Policy for ¿Quién Soy? Biblia",
       intro:
@@ -433,12 +439,12 @@ export const copy = {
         {
           title: "3. Compras Dentro de la App",
           text:
-            "STOP actualmente no incluye compras dentro de la app. Las compras dentro de la app podrían agregarse en una versión futura. Si se agregan, serían procesadas a través de la plataforma oficial de la tienda de aplicaciones, como Google Play, y esta política se actualizará según sea necesario."
+            "STOP incluye compras dentro de la app para paquetes de monedas opcionales, que los jugadores pueden usar para desbloquear paquetes de categorías y otro contenido dentro de la app. Las compras se procesan completamente a través del sistema oficial de facturación de Google Play; STOP no procesa directamente información de pago ni guarda tus datos de pago."
         },
         {
           title: "4. Servicios de Terceros",
           text:
-            "STOP actualmente no usa analítica de terceros, publicidad, inicio de sesión, ni servicios backend como Supabase. Versiones futuras podrían incluir servicios para funciones como reportes de errores, analítica, inicio de sesión, funciones online, anuncios o guardado en la nube. Si esos servicios se agregan, esta Política de Privacidad será actualizada antes o al momento de publicar esas funciones."
+            "STOP utiliza Google AdMob para mostrar un anuncio de video recompensado opcional, que los jugadores pueden ver para recibir monedas adicionales. Los anuncios nunca son obligatorios para jugar. AdMob puede recopilar identificadores del dispositivo y de publicidad para mostrar y medir anuncios; solicitamos anuncios no personalizados de forma predeterminada. Para los usuarios del Espacio Económico Europeo (EEE) y del Reino Unido, la aplicación utiliza la User Messaging Platform (UMP) de Google para solicitar el consentimiento antes de cargar anuncios, cuando así lo exija la legislación aplicable. STOP también utiliza Supabase, un servicio de base de datos, para guardar una pequeña cantidad de datos anónimos de juego: específicamente, palabras que un jugador escribió y que no fueron reconocidas como válidas para una categoría, junto con la categoría y la letra de esa ronda. Estos datos no están vinculados a tu nombre, cuenta ni identidad del dispositivo, y se usan únicamente para mejorar las listas de palabras del juego. No se comparten con anunciantes ni otros terceros. Versiones futuras podrían incluir servicios adicionales de terceros, como reportes de errores o analítica. Esta Política de Privacidad será actualizada antes o en el momento en que dichas funciones sean incorporadas."
         },
         {
           title: "5. Compartir Información",
@@ -459,6 +465,11 @@ export const copy = {
           title: "8. Cambios a Esta Política",
           text:
             "Podemos actualizar esta Política de Privacidad ocasionalmente, especialmente cuando se agreguen nuevas funciones a STOP. Las actualizaciones se publicarán en esta página con una nueva fecha de última actualización."
+        },
+        {
+          title: "8a. Cómo Borrar Tus Datos",
+          text:
+            "La mayoría de los datos de STOP — monedas, progreso y configuraciones — se guardan localmente en tu dispositivo. Puedes eliminarlos en cualquier momento borrando el almacenamiento de la app desde los ajustes de tu dispositivo, o desinstalando la app. Los datos anónimos de juego descritos en la Sección 4 (palabras que no fueron reconocidas como válidas) no están vinculados a tu identidad, dispositivo ni cuenta de ninguna forma, por lo que no se pueden rastrear hasta un jugador específico ni borrar individualmente a solicitud. Conservamos estos datos anónimos solo el tiempo necesario para mejorar las listas de palabras de STOP. Si tienes preguntas sobre estos datos o quieres plantear alguna inquietud, contáctanos en admin@domiwebsites.com."
         },
         {
           title: "9. Contacto",

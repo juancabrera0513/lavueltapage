@@ -1,4 +1,4 @@
-import { LAST_UPDATED } from "../data/copy";
+import { STOP_PRIVACY_LAST_UPDATED } from "../data/copy";
 
 export default function PrivacyStop({ t }) {
   return (
@@ -11,7 +11,7 @@ export default function PrivacyStop({ t }) {
         <p className="legal-app-info">{t.privacy.appInfo}</p>
 
         <p className="updated">
-          {t.common.lastUpdated}: {LAST_UPDATED}
+          {t.common.lastUpdated}: {STOP_PRIVACY_LAST_UPDATED}
         </p>
 
         <div className="legal-content">
