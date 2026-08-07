@@ -44,9 +44,17 @@
   .hero-grid,
   .product-grid,
   .featured-grid,
-  .two-column,
-  .footer-grid {
+  .two-column {
     grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 32px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
   }
 
   .hero-section,
@@ -64,10 +72,6 @@
 
   .phone-mockup {
     justify-self: start;
-  }
-
-  .footer-links {
-    justify-content: flex-start;
   }
 }
 
@@ -146,10 +150,6 @@
     min-height: auto;
   }
 
-  .game-screen {
-    min-height: 480px;
-  }
-
   .info-row {
     flex-direction: column;
   }
@@ -157,6 +157,15 @@
   .info-row strong,
   .info-row a {
     text-align: left;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .footer-brand {
+    grid-column: auto;
   }
 }
 

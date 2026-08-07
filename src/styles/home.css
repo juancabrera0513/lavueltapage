@@ -81,14 +81,11 @@
     linear-gradient(145deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.05));
 }
 
-.orbit-card-main span {
-  width: max-content;
-  padding: 8px 12px;
-  border-radius: 999px;
-  color: #06110b;
-  background: var(--green);
-  font-weight: 900;
-  letter-spacing: -0.03em;
+.orbit-icon {
+  width: 76px;
+  height: 76px;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
 
 .orbit-card-main strong {

@@ -2,6 +2,11 @@ export const CONTACT_EMAIL = "admin@domiwebsites.com";
 export const LAST_UPDATED = "June 1, 2026";
 export const BIBLE_PRIVACY_LAST_UPDATED = "June 4, 2026";
 
+export const STOP_PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.domiwebsites.stopgame";
+export const BIBLE_PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.juanp.quiensoybiblia";
+
 export const copy = {
   en: {
     nav: {
@@ -40,7 +45,7 @@ export const copy = {
       featuredLabel: "Featured Product",
       featuredTitle: "STOP",
       featuredText:
-        "STOP is our first mobile word game, currently in final preparation for release on Google Play.",
+        "STOP is our first mobile word game, live now and free to download on Google Play.",
       aboutTitle: "About La Vuelta Labs",
       aboutText:
         "La Vuelta Labs is an independent apps and games studio. Our goal is to build products that feel simple, polished, and useful from the first time someone opens them."
@@ -50,7 +55,7 @@ export const copy = {
       title: "STOP",
       subtitle:
         "A fast and fun Spanish word game where every round challenges your speed, vocabulary, and creativity.",
-      primary: "Google Play Release in Progress",
+      primary: "Get it on Google Play",
       secondary: "Read Privacy Policy",
       howTitle: "How It Works",
       how: [
@@ -70,14 +75,15 @@ export const copy = {
       ],
       statusTitle: "Release Status",
       statusText:
-        "STOP is in final preparation for publication on Google Play. The first release focuses on a clean single-player experience, with more features planned for future updates."
+        "STOP is live now on Google Play. The first release focuses on a clean single-player experience, with more features planned for future updates.",
+      galleryTitle: "See it in action"
     },
     bibleGame: {
       eyebrow: "Official Game Page",
       title: "¿Quién Soy? Biblia",
       subtitle:
         "A Bible character guessing game where each clue challenges your memory, faith knowledge, and deduction skills.",
-      primary: "Google Play Release in Progress",
+      primary: "Get it on Google Play",
       secondary: "Read Privacy Policy",
       howTitle: "How It Works",
       how: [
@@ -97,8 +103,9 @@ export const copy = {
       ],
       statusTitle: "About the Game",
       statusText:
-        "¿Quién Soy? Biblia is a mobile guessing game focused on characters from the Bible. The first release is designed to be simple, accessible, and fun for players who enjoy Bible knowledge challenges.",
-      featuresHeading: "Built for clues, discovery, and Bible knowledge."
+        "¿Quién Soy? Biblia is live now on Google Play. It's a mobile guessing game focused on characters from the Bible, designed to be simple, accessible, and fun for players who enjoy Bible knowledge challenges.",
+      featuresHeading: "Built for clues, discovery, and Bible knowledge.",
+      galleryTitle: "See it in action"
     },
     privacy: {
       title: "Privacy Policy for STOP",
@@ -285,7 +292,19 @@ export const copy = {
     footer: {
       text: "Independent apps and games studio.",
       rights: "All rights reserved.",
-      biblePrivacy: "¿Quién Soy? Biblia Privacy"
+      biblePrivacy: "¿Quién Soy? Biblia Privacy",
+      gamesHeading: "Games",
+      legalHeading: "Legal",
+      companyHeading: "Company",
+      biblePrivacyShort: "Bible Game Privacy",
+      stopPrivacy: "STOP Privacy",
+      stopTerms: "STOP Terms"
+    },
+    notFound: {
+      eyebrow: "404",
+      title: "Page Not Found",
+      text: "The page you are looking for does not exist.",
+      cta: "Back Home"
     },
     common: {
       lastUpdated: "Last updated",
@@ -332,7 +351,7 @@ export const copy = {
       featuredLabel: "Producto Destacado",
       featuredTitle: "STOP",
       featuredText:
-        "STOP es nuestro primer juego móvil de palabras, actualmente en preparación final para su lanzamiento en Google Play.",
+        "STOP es nuestro primer juego móvil de palabras, ya disponible gratis en Google Play.",
       aboutTitle: "Sobre La Vuelta Labs",
       aboutText:
         "La Vuelta Labs es un estudio independiente de apps y juegos. Nuestro objetivo es crear productos simples, pulidos y útiles desde la primera vez que alguien los abre."
@@ -342,7 +361,7 @@ export const copy = {
       title: "STOP",
       subtitle:
         "Un juego de palabras en español rápido y divertido donde cada ronda reta tu velocidad, vocabulario y creatividad.",
-      primary: "Lanzamiento en Google Play en Proceso",
+      primary: "Descárgalo en Google Play",
       secondary: "Leer Política de Privacidad",
       howTitle: "Cómo Funciona",
       how: [
@@ -362,14 +381,15 @@ export const copy = {
       ],
       statusTitle: "Estado del Lanzamiento",
       statusText:
-        "STOP está en preparación final para publicarse en Google Play. La primera versión se enfoca en una experiencia limpia de un jugador, con más funciones planeadas para futuras actualizaciones."
+        "STOP ya está disponible en Google Play. La primera versión se enfoca en una experiencia limpia de un jugador, con más funciones planeadas para futuras actualizaciones.",
+      galleryTitle: "Míralo en acción"
     },
     bibleGame: {
       eyebrow: "Página Oficial del Juego",
       title: "¿Quién Soy? Biblia",
       subtitle:
         "Un juego para adivinar personajes de la Biblia donde cada pista reta tu memoria, conocimiento bíblico y capacidad de deducción.",
-      primary: "Lanzamiento en Google Play en Proceso",
+      primary: "Descárgalo en Google Play",
       secondary: "Leer Política de Privacidad",
       howTitle: "Cómo Funciona",
       how: [
@@ -389,9 +409,10 @@ export const copy = {
       ],
       statusTitle: "Sobre el Juego",
       statusText:
-        "¿Quién Soy? Biblia es un juego móvil de adivinanzas enfocado en personajes de la Biblia. La primera versión está pensada para ser simple, accesible y divertida para jugadores que disfrutan los retos de conocimiento bíblico.",
+        "¿Quién Soy? Biblia ya está disponible en Google Play. Es un juego móvil de adivinanzas enfocado en personajes de la Biblia, pensado para ser simple, accesible y divertido.",
       featuresHeading:
-        "Creado para pistas, descubrimiento y conocimiento bíblico."
+        "Creado para pistas, descubrimiento y conocimiento bíblico.",
+      galleryTitle: "Míralo en acción"
     },
     privacy: {
       title: "Política de Privacidad de STOP",
@@ -574,7 +595,19 @@ export const copy = {
     footer: {
       text: "Estudio independiente de apps y juegos.",
       rights: "Todos los derechos reservados.",
-      biblePrivacy: "Privacidad de ¿Quién Soy? Biblia"
+      biblePrivacy: "Privacidad de ¿Quién Soy? Biblia",
+      gamesHeading: "Juegos",
+      legalHeading: "Legal",
+      companyHeading: "Compañía",
+      biblePrivacyShort: "Privacidad del Juego Bíblico",
+      stopPrivacy: "Privacidad de STOP",
+      stopTerms: "Términos de STOP"
+    },
+    notFound: {
+      eyebrow: "404",
+      title: "Página No Encontrada",
+      text: "La página que buscas no existe.",
+      cta: "Volver al Inicio"
     },
     common: {
       lastUpdated: "Última actualización",

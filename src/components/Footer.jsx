@@ -7,20 +7,29 @@ export default function Footer({ t }) {
   return (
     <footer className="site-footer">
       <div className="container footer-grid">
-        <div>
+        <div className="footer-brand">
           <strong>La Vuelta Labs</strong>
           <p>{t.footer.text}</p>
         </div>
 
-        <div className="footer-links">
-          <Link to="/stop">STOP</Link>
-          <Link to="/quien-soy-biblia">¿Quién Soy? Biblia</Link>
-          <Link to="/privacy/stop">Privacy</Link>
-          <Link to="/privacy/quien-soy-biblia">{t.footer.biblePrivacy}</Link>
-          <Link to="/terms/stop">Terms</Link>
-          <Link to="/support/stop">Support</Link>
-          <Link to="/contact">Contact</Link>
-        </div>
+        <nav className="footer-col" aria-label="Games">
+          <span className="footer-col-heading">{t.footer.gamesHeading}</span>
+          <Link to="/stop">{t.nav.stop}</Link>
+          <Link to="/quien-soy-biblia">{t.nav.bible}</Link>
+        </nav>
+
+        <nav className="footer-col" aria-label="Legal">
+          <span className="footer-col-heading">{t.footer.legalHeading}</span>
+          <Link to="/privacy/stop">{t.footer.stopPrivacy}</Link>
+          <Link to="/terms/stop">{t.footer.stopTerms}</Link>
+          <Link to="/privacy/quien-soy-biblia">{t.footer.biblePrivacyShort}</Link>
+        </nav>
+
+        <nav className="footer-col" aria-label="Company">
+          <span className="footer-col-heading">{t.footer.companyHeading}</span>
+          <Link to="/support/stop">{t.nav.support}</Link>
+          <Link to="/contact">{t.nav.contact}</Link>
+        </nav>
       </div>
 
       <div className="container copyright">

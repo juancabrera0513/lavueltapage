@@ -26,9 +26,14 @@ export default function Home({ t }) {
 
           <div className="hero-panel">
             <div className="orbit-card orbit-card-main">
-              <span>STOP</span>
-              <strong>Word Game</strong>
-              <small>Spanish mobile experience</small>
+              <img
+                className="orbit-icon"
+                src="/assets/stop-icon.png"
+                alt="STOP app icon"
+                loading="lazy"
+              />
+              <strong>STOP</strong>
+              <small>Spanish word game, live on Google Play</small>
             </div>
 
             <div className="mini-card mini-card-top">Games</div>
