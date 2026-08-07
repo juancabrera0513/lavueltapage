@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { BIBLE_PLAY_STORE_URL } from "../data/copy";
 
 export default function BibleGamePage({ t }) {
   return (
@@ -11,9 +12,14 @@ export default function BibleGamePage({ t }) {
             <p className="hero-text">{t.bibleGame.subtitle}</p>
 
             <div className="button-row">
-              <span className="btn btn-primary btn-static">
+              <a
+                className="btn btn-primary"
+                href={BIBLE_PLAY_STORE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {t.bibleGame.primary}
-              </span>
+              </a>
 
               <Link className="btn btn-secondary" to="/privacy/quien-soy-biblia">
                 {t.bibleGame.secondary}
@@ -26,18 +32,12 @@ export default function BibleGamePage({ t }) {
             aria-label="¿Quién Soy? Biblia game preview"
           >
             <div className="phone-top" />
-
-            <div className="game-screen bible-screen">
-              <span className="game-badge bible-badge">¿Quién Soy?</span>
-              <p className="clue-label">Pista 1 de 4</p>
-              <h2>Fui vendido por mis hermanos.</h2>
-
-              <div className="answer-row bible-answer">Moisés</div>
-              <div className="answer-row bible-answer is-correct">José</div>
-              <div className="answer-row bible-answer">David</div>
-
-              <div className="timer-pill bible-timer">Personaje bíblico</div>
-            </div>
+            <img
+              className="phone-screenshot"
+              src="/assets/bible-screenshot-hero.png"
+              alt="¿Quién Soy? Biblia gameplay screenshot from Google Play"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
@@ -72,6 +72,21 @@ export default function BibleGamePage({ t }) {
             {t.bibleGame.features.map((feature) => (
               <span key={feature}>{feature}</span>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="section-heading">
+            <p className="eyebrow">{t.common.official}</p>
+            <h2>{t.bibleGame.galleryTitle}</h2>
+          </div>
+
+          <div className="screens-strip">
+            <img src="/assets/bible-screenshot-2.png" alt="¿Quién Soy? Biblia start screen" loading="lazy" />
+            <img src="/assets/bible-screenshot-3.png" alt="¿Quién Soy? Biblia correct answer reveal" loading="lazy" />
+            <img src="/assets/bible-screenshot-hero.png" alt="¿Quién Soy? Biblia question screen" loading="lazy" />
           </div>
         </div>
       </section>

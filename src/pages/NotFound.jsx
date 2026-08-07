@@ -4,12 +4,12 @@ export default function NotFound({ t }) {
   return (
     <section className="simple-page">
       <div className="container simple-card">
-        <p className="eyebrow">404</p>
-        <h1>Page Not Found</h1>
-        <p>The page you are looking for does not exist.</p>
+        <p className="eyebrow">{t.notFound.eyebrow}</p>
+        <h1>{t.notFound.title}</h1>
+        <p>{t.notFound.text}</p>
 
         <Link className="btn btn-primary" to="/">
-          {t.nav.home}
+          {t.notFound.cta}
         </Link>
       </div>
     </section>

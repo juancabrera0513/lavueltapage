@@ -162,6 +162,10 @@ p {
 
 .btn-static {
   cursor: default;
+  color: var(--muted);
+  border: 1px dashed var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: none;
 }
 
 .btn:not(.btn-static):hover {

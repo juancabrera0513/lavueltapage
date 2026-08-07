@@ -8,9 +8,6 @@ export default function Header({ lang, setLang, t }) {
     { to: "/", label: t.nav.home },
     { to: "/stop", label: t.nav.stop },
     { to: "/quien-soy-biblia", label: t.nav.bible },
-    { to: "/privacy/stop", label: t.nav.privacy },
-    { to: "/terms/stop", label: t.nav.terms },
-    { to: "/support/stop", label: t.nav.support },
     { to: "/contact", label: t.nav.contact }
   ];
 
